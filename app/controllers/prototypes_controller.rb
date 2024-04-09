@@ -39,6 +39,7 @@ class PrototypesController < ApplicationController
     @comment = Comment.new
     @comments = @prototype.comments
     #binding.pry
+    #ブランチ削除用
   end
 
   def destroy
