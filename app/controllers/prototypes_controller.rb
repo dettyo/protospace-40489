@@ -40,6 +40,7 @@ class PrototypesController < ApplicationController
     @comments = @prototype.comments
     #binding.pry
     #testtest
+    #testコミット２
   end
 
   def destroy
