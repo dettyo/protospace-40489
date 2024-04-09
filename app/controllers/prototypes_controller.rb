@@ -35,10 +35,10 @@ class PrototypesController < ApplicationController
   end
 
   def show
-    #testtest
     @prototype = Prototype.find(params[:id])
     @comment = Comment.new
     @comments = @prototype.comments
+    #binding.pry
   end
 
   def destroy
